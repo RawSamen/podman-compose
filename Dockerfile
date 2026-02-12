@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
     musl-dev \
     build-essential \
     python3-dev \
-    strace \
     sysstat \
     lsof \
     && apt-get clean \
