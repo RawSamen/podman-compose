@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y \
     musl-dev \
     build-essential \
     python3-dev \
+    sysstat \
+    lsof \
+		strace \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
